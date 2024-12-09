@@ -36,6 +36,7 @@ sha3 = "0.10"
 some-to-err = "0.2.1"
 thiserror = "1"
 tracing = { version = "0.1", features = ["attributes"] }
+openssl-sys = { version = "0.9", features = ["vendored"] }
 
 [dependencies.poseidon]
 git = "https://github.com/privacy-scaling-explorations/poseidon"
